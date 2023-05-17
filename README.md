@@ -4,11 +4,12 @@ This repository provides an example implementation of stubby4j, a lightweight st
 
 ## Prerequisites
 
-
 ```shell
 git clone <repository-url>
 ```
+
 <br/>
+
 ## Getting Started
 
 1. Clone the Repository
