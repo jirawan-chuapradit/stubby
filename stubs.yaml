@@ -1,0 +1,21 @@
+- description: This API will show TODOs
+  request:
+    url: ^/todos$
+    method: GET
+  response:
+    status: 200
+    latency: 5000
+    headers:
+      content-type: application/json
+    file: mock/todos.json
+
+- description: This API will show TODO by todo id = 1
+  request:
+    url: /todos/1
+    method: GET
+  response:
+    status: 200
+    latency: 2000
+    headers:
+      content-type: application/json
+    file: mock/todos_1.json
