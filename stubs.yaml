@@ -19,3 +19,18 @@
     headers:
       content-type: application/json
     file: mock/todos_1.json
+
+- description: This API will create a todo
+  request:
+    method: POST
+    url: ^/todos$
+    headers:
+      content-type: application/json
+    file: mock/todos_3.json
+
+  response:
+    status: 201
+    headers:
+      content-type: application/json
+    body: >
+      {"userId": "1", "id": 3, "title": "clean the floor",  "completed": false}
