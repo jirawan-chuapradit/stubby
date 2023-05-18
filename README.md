@@ -26,7 +26,7 @@ stubby --data stubs.yaml
 <br/>
 
 3. Verify the Stubbed Endpoints
-Open your web browser or postman and visit https://0.0.0.0:7443/todos to access the stubbed TODOs endpoint.
+Open your web browser or postman and visit https://0.0.0.0:8882/todos to access the stubbed TODOs endpoint.
 
 <br/>
 
